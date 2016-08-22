@@ -1,3 +1,26 @@
+'''
+ * @vgg16_face_im.py
+ * @author  Devin <jdoe@example.com>
+ * @version 1.0
+ *
+ * @section LICENSE
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of
+ * the License, or (at your option) any later version.
+* See the GNU  General Public License for more details at
+ * https://www.gnu.org/copyleft/gpl.html
+ *
+ * @section DESCRIPTION
+ *   VGG_16 CNN Orignal net for predict
+ *   Please download vgg16_weights.h5 file from internet
+ *   
+ *  @toolchain
+ *   python 2.7 + keras 1.0.7 + theano 0.8.2 
+'''
+
+
 from keras.models import Sequential
 from keras.layers.core import Flatten, Dense, Dropout
 from keras.layers.convolutional import Convolution2D, MaxPooling2D, ZeroPadding2D
